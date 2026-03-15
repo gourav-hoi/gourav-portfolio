@@ -3,7 +3,7 @@ import type { PortfolioData } from '@/types/portfolio';
 export const portfolioData: PortfolioData = {
   seo: {
     title: 'Gourav Sharma | Full Stack Mobile Developer',
-    description: 'Premium 3D developer portfolio for Gourav Sharma, a full stack mobile developer building scalable mobile apps, dashboards, and modern web systems.',
+    description: ' Full stack mobile developer building scalable mobile apps, dashboards, and modern web systems.',
     keywords: ['Gourav Sharma portfolio', 'Full Stack Mobile Developer', 'React Native developer', 'Next.js portfolio', 'Spring Boot developer', '3D portfolio website'],
   },
   navigation: [
@@ -51,6 +51,7 @@ export const portfolioData: PortfolioData = {
     { name: 'DevOps', items: ['AWS', 'Docker', 'CI/CD', 'Firebase'] },
   ],
   projects: [
+    { name: 'Hoi Your Travel Companion', summary: 'React Native EXPO + Next js + Nest js + Firebase mobile experience for attendance, fees, alerts, leave management, and day-to-day school communication.', metric: '15K+ users mobile application', stack: ['React Native', 'Firebase', 'FCM', 'Analytics'], github: '#', live: '#', preview: 'High-retention mobile app with realtime communication flows and parent-first UX.' },
     { name: 'Apeejay Parent App', summary: 'React Native + Firebase mobile experience for attendance, fees, alerts, leave management, and day-to-day school communication.', metric: '15K+ users mobile application', stack: ['React Native', 'Firebase', 'FCM', 'Analytics'], github: '#', live: '#', preview: 'High-retention mobile app with realtime communication flows and parent-first UX.' },
     { name: 'Cadence School ERP App', summary: 'A complete ERP system for schools covering academics, attendance, fees, and communication with secure payment flows.', metric: 'ERP workflow efficiency +30%', stack: ['React Native CLI', 'Payments', 'Cloud Storage'], github: '#', live: '#', preview: 'Operational ERP experience connecting academic administration and real-time parent communication.' },
     { name: 'CRC Doctor Reporting App', summary: 'Doctor and medical representative reporting system focused on visits, appointments, and actionable field analytics.', metric: '100+ doctors supported', stack: ['React Native', 'Analytics', 'Reporting'], github: '#', live: '#', preview: 'Healthcare reporting workflow with analytics surfaces designed to reduce friction for field teams.' },
@@ -64,8 +65,8 @@ export const portfolioData: PortfolioData = {
     email: 'gsharmafp@gmail.com',
     phone: '+91 9643063309',
     socialLinks: [
-      { label: 'GitHub', href: 'https://github.com/gourav-hoi' },
-      { label: 'LinkedIn', href: '#', placeholder: true },
+      { label: 'GitHub', href: 'https://github.com/gshrmafp' },
+      { label: 'LinkedIn', href: 'https://www.linkedin.com/in/gourav-sharma-3662b1185/', placeholder: true },
       { label: 'Email', href: 'mailto:gsharmafp@gmail.com' },
     ],
   },

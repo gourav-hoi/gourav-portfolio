@@ -1,0 +1,22 @@
+.radial-fade {
+  mask-image: radial-gradient(circle at center, black 45%, transparent 85%);
+}
+
+.border-gradient {
+  position: relative;
+}
+
+.border-gradient::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(83, 252, 248, 0.28), rgba(173, 98, 255, 0.22), rgba(255, 94, 196, 0.18));
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}

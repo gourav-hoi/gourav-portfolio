@@ -1,0 +1,21 @@
+export type NavItem = { id: string; label: string };
+export type LinkItem = { label: string; href: string; placeholder?: boolean };
+export type HeroData = { name: string; title: string; tagline: string; rotatingTitles: string[]; ctas: LinkItem[] };
+export type Stat = { label: string; value: number; suffix?: string; prefix?: string };
+export type AboutCard = { title: string; body: string };
+export type Achievement = { title: string; description: string };
+export type TechCategory = { name: string; items: string[] };
+export type Project = { name: string; summary: string; metric: string; stack: string[]; github: string; live: string; preview: string };
+export type ExperienceItem = { role: string; company: string; duration: string; highlights: string[] };
+export type ContactData = { email: string; phone: string; socialLinks: LinkItem[] };
+export type PortfolioData = {
+  seo: { title: string; description: string; keywords: string[] };
+  navigation: NavItem[];
+  hero: HeroData;
+  stats: Stat[];
+  about: { intro: string; cards: AboutCard[]; achievements: Achievement[] };
+  tech: TechCategory[];
+  projects: Project[];
+  experience: ExperienceItem[];
+  contact: ContactData;
+};
